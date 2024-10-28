@@ -2,16 +2,22 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, isSignInWithEmailLink } from "firebase/auth";
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const apiKey = process.env.REACT_APP_API_KEY;
+const authDomain = process.env.AUTH_DOMAIN;
+const projectId = process.env.PROJECT_ID;
+const storageBucket = process.env.STORAGE_BUCKET;
+const messagingSenderId = process.env.MESSAGING_SENDER_ID;
+const appId = process.env.APP_ID;
+const measurementId = process.env.PROCESS_ID;
+
 const firebaseConfig = {
-  apiKey: "AIzaSyA_duqZWxydRYtp0SXuNMGFVqTgpSoDY0A",
-  authDomain: "slots-calendar-app.firebaseapp.com",
-  projectId: "slots-calendar-app",
-  storageBucket: "slots-calendar-app.appspot.com",
-  messagingSenderId: "1080303265785",
-  appId: "1:1080303265785:web:810854323804e29f317f28",
-  measurementId: "G-ZZ1TB35V52"
+  apiKey: apiKey,
+  authDomain: authDomain,
+  projectId: projectId,
+  storageBucket: storageBucket,
+  messagingSenderId: messagingSenderId,
+  appId: appId,
+  measurementId: measurementId
 };
 
 // Initialize Firebase
