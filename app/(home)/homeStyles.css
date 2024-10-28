@@ -1,0 +1,15 @@
+:root {
+    --bg-color-1: #EFE7DA;
+    --bg-color-2: #E1DACA;
+    --text-color-1: #B29079;
+    --dark-color: #C1B6A4;
+    --light-color: #F6F5EC;
+    --comp-green: #89A094;
+    --available: #A55252;
+    --not-available: #89A094;
+  }
+
+* {
+    
+    margin: 0;
+}

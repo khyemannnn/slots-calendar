@@ -1,0 +1,63 @@
+.welcome {
+    color: var(--text-color-1);
+    font-size: 5rem;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.introText {
+    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-right: 14.5rem;
+    
+}
+
+.introText p {
+    color: var(--text-color-1);
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.6;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; /* Vertically center children */
+    height: 100vh;
+    padding-left: 7rem;
+    margin: 0;
+    
+}
+
+.plansButton {
+   background-color: transparent;
+   color: var(--text-color-1);
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   padding-left: 1.8rem;
+   padding-right: 1.5rem;
+   width: fit-content;
+   border: 2px solid var(--text-color-1);
+   border-radius: 1.4rem;
+   font-size: 1.3rem;
+   /* font-style: italic; */
+   font-family: "Times New Roman", Times, serif;
+   cursor: pointer;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center; /* Centers content horizontally */
+   gap: 0.5rem; /* Adjusts the spacing between text and icon */
+}
+
+.plansButton:hover {
+  background-color: var(--text-color-1);
+  color: var(--bg-color-1);
+}
+
+.plansButton {
+  transition: color 0.1s ease;
+  transition: background-color 0.1s ease;
+}
+

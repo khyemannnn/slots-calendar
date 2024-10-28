@@ -1,0 +1,80 @@
+.dayGrid {
+    /* flex: 0 0 auto; */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 40px;
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .dayGrid .days {
+    color: var(--text-color-1);
+  }
+
+  .dayGrid .daysBold {
+    color: var(--text-color-1);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  
+  }
+  
+  .monthGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr); /* Change back to 1fr */
+    width: 100%;
+    
+    box-sizing: border-box;
+    grid-column-end: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    column-gap: 2px;
+    row-gap: 2px;
+  }
+  
+  
+  .monthGrid .month {
+    background: var(--light-color) !important;
+    padding: 5px;
+    display: flex;
+    margin: 0px;
+    color: var(--text-color-1);
+    box-sizing: border-box;
+    height: 125px;
+    
+  }
+  
+  .monthGrid .monthNull {
+    background: var(--bg-color-1);
+    padding: 5px;
+    display: flex;
+    margin: 0px;
+    color: var(--text-color-1);
+    box-sizing: border-box;
+    /* height: 125px; */
+    font-weight: 300;
+
+    
+  }
+  
+  .monthGrid .bold {
+    background: var(--light-color);
+    padding: 5px;
+    display: flex;
+    margin: 0px;
+    color: var(--text-color-1);
+    box-sizing: border-box;
+    /* height: 125px; */
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  
+    /* margin: 0; */
+  }
+  
+  
+  .month-grid p {
+    margin: 0;
+  }

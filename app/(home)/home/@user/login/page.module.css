@@ -1,0 +1,84 @@
+.userLogin {
+    color: var(--text-color-1);
+    font-size: 2rem;
+    
+}
+
+.input {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+.inputField {
+    border: none; 
+    background-color: #EFE7DA;
+    border-radius: 1rem;
+    width: 60%;
+    padding: 0.8rem;
+    margin-top: 0.8rem;
+    box-sizing: border-box;
+    color: var(--text-color-1);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
+    
+}
+
+.inputField:focus {
+    outline: none;
+}
+
+.inputField::placeholder {
+    color: var(--text-color-1);
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.user {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; /* Vertically center children */
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.fpassword {
+    color: var(--text-color-1);
+    text-align: right;       /* Align text to the right */
+    margin-top: 0.5rem;      /* Add some space above */
+    width: 60%;              /* Same width as the input fields */
+    margin-left: auto;       /* Push it to the right */
+    margin-right: auto;      /* Center it with respect to the container */
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.loginButton {
+    background-color: transparent; 
+    font-family:'Times New Roman', Times, serif;
+    border: 1px solid var(--text-color-1);
+    color: var(--text-color-1);
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    width: 300px;
+    margin-top: 1rem;
+}
+
+.loginButton:hover {
+    transform: scale(1.02);
+}
+
+.signuplink {
+    color: var(--text-color-1);
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.here {
+    color: var(--text-color-1); 
+
+}

@@ -1,0 +1,7 @@
+.contentContainer {
+    background: var(--bg-color-1);
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    
+  }

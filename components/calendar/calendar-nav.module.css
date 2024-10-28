@@ -1,0 +1,52 @@
+.calNav {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+   
+  }
+
+  .calNav span {
+    color: var(--text-color-1);
+    font-size: 1.3em;
+  }
+
+  .calNav .underline {
+    color: var(--text-color-1);
+    font-size: 1.3em;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  
+  .leftButton {
+    left: calc(50% - 80px);
+    transform: translateX(-100%);
+    transition: stroke-width 0.3s ease;
+    cursor: pointer;  
+  }
+  
+  .leftButton:hover svg path {
+    stroke-width: 2.5; /* Thicker stroke on hover */
+  }
+
+  .rightButton {
+    right: calc(50% - 80px);
+    transform: translateX(100%);
+    transition: stroke-width 0.3s ease;
+    cursor: pointer;  
+  }
+
+  .rightButton:hover svg path {
+    stroke-width: 2.5; /* Thicker stroke on hover */
+  }
+
+  
+  .calNav button {
+    position: absolute;
+    border: none;
+    background-color: inherit;
+  }
+  
