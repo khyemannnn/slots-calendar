@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import CalNav from './calendar-nav';
 import CalendarGrid from './calendar-grid';
 import { DateContext } from '../../utils/date-context';
-import classes from './main-content.module.css'
+import classes from './main-content.module.css';
 
 export default function CalendarApp() {
   // State for the current date

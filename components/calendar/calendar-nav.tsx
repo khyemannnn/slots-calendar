@@ -1,4 +1,4 @@
-import { alegreya } from "@/app/(calendar)/layout";
+// import { alegreya } from "@/app/(calendar)/layout";
 import { useContext } from "react";
 import { DateContext } from "../../utils/date-context";
 import classes from './calendar-nav.module.css';
@@ -42,7 +42,7 @@ export default function CalNav() {
       </button>
 
       {/* Display the current month and year */}
-      <span className={`${alegreya.className} ${isCurrentMonth ? classes.underline : ''}`}>{formattedMonthYear}</span>
+      <span className={` ${isCurrentMonth ? classes.underline : ''}`}>{formattedMonthYear}</span>
 
       <button className={classes.rightButton} onClick={handleNextMonth}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24} color={"#B29079"} fill={"none"}>

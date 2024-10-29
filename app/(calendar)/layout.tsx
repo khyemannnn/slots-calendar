@@ -2,7 +2,7 @@ import "@/app/globals.css";
 import Header from "@/components/header";
 import { Alegreya_Sans_SC } from 'next/font/google';
 
-export const alegreya = Alegreya_Sans_SC({
+const alegreya = Alegreya_Sans_SC({
   subsets: ['latin'],
   weight: ['300', '700'],
   display: 'swap',
@@ -15,10 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={alegreya.className}>
       <Header />
-    
+      
       {children}
+      
     
       </body>
     </html>

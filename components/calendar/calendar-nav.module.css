@@ -42,7 +42,6 @@
   .rightButton:hover svg path {
     stroke-width: 2.5; /* Thicker stroke on hover */
   }
-
   
   .calNav button {
     position: absolute;

@@ -6,10 +6,12 @@
     padding-top: 10px;
     text-align: center;
     align-items: center;
+    font-family: inherit;
   }
   
   .dayGrid .days {
     color: var(--text-color-1);
+    font-family: inherit;
   }
 
   .dayGrid .daysBold {
@@ -17,13 +19,13 @@
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
-  
+    font-family: inherit;
   }
   
   .monthGrid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(5, 1fr); /* Change back to 1fr */
+    grid-template-rows: repeat(5, 1fr); 
     width: 100%;
     
     box-sizing: border-box;
@@ -32,6 +34,7 @@
     margin-bottom: 0px;
     column-gap: 2px;
     row-gap: 2px;
+    font-family: inherit;
   }
   
   
@@ -43,7 +46,7 @@
     color: var(--text-color-1);
     box-sizing: border-box;
     height: 125px;
-    
+    font-family: inherit;
   }
   
   .monthGrid .monthNull {
@@ -55,8 +58,7 @@
     box-sizing: border-box;
     /* height: 125px; */
     font-weight: 300;
-
-    
+    font-family: inherit;
   }
   
   .monthGrid .bold {
@@ -66,15 +68,14 @@
     margin: 0px;
     color: var(--text-color-1);
     box-sizing: border-box;
-    /* height: 125px; */
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
-  
-    /* margin: 0; */
+    font-family: inherit;
   }
   
-  
-  .month-grid p {
+  .monthGrid p {
     margin: 0;
+    font-family: inherit;
+    font-size: 24px;
   }
